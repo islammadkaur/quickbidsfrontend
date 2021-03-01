@@ -1,0 +1,165 @@
+.Calculator {
+    text-align: center;
+    padding-top: 4%;
+    background-color: lightslategrey;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  /* body{
+    background-color: lightslategrey;
+  } */
+  
+  #title {
+    margin-bottom: 10%;
+    text-decoration: underline;
+  }
+  
+  #form {
+    width: 46%;
+    margin-left: 24%;
+    background-color: snow;
+    padding: 4%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+  #form2 {
+    width: 46%;
+    margin-left: 24%;
+    background-color: snow;
+    padding: 4%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    border-top-style: solid;
+    border-top-color:  #282c34;
+  }
+  
+  #investment-amount {
+    margin-bottom: 6%;
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+  }
+  #daily-compound {
+    /* margin-bottom: 6%; */
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #282c34;
+    color: whitesmoke;
+  }
+  
+  #percentage-amount {
+    width: 100%;
+    font-size: 20px;
+    height: 45px;
+  }
+  
+  #stock-percentage-amount {
+    width: 15%;
+    font-size: 20px;
+    height: 45px;
+    background-color: rgb(235, 235, 235);
+    color: #282c34;
+  }
+  
+  #loss-percent{
+    width: 15%;
+    font-size: 20px;
+    height: 45px;
+    background-color: rgb(235, 235, 235);
+    color: #282c34;
+  }
+  #monthly-compound {
+    width: 12%;
+    font-size: 20px;
+    height: 45px;
+    background-color: whitesmoke;
+    color: #282c34;
+    text-align: left;
+  }
+  
+  #monthly-expenses {
+    width: 80%;
+    margin-top: 0%;
+    font-size: 20px;
+    height: 40px;
+    background-color: #282c34;
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  #month-desc {
+    color: #282c34;
+  }
+  
+  #stock-price {
+    width: 100%;
+    font-size: 20px;
+    height: 45px;
+    text-align: center;
+    background-color: #282c34;
+    color: whitesmoke;
+    margin-bottom: 2%;
+  
+  }
+  
+  input, select, option {
+    padding-left: 25px;
+  }
+  
+  #calculate-btn {
+    margin-bottom: 5%;
+    width: 60%;
+    margin-left: 3%;
+    font-size: 20px;
+    height: 40px;
+    background-color: #282c34;
+    color: whitesmoke;
+  }
+  
+  #results {
+    color: whitesmoke;
+    background-color: #282c34;
+    padding: 8%;
+    margin-top: 5%;
+  }
+  
+  #result-text {
+    color: #282c34;
+    margin-top: 10%;
+  }
+  
+  #test {
+    position: relative;
+    background-color: #dedede;
+    display: block;
+  }
+  
+  #test:before {
+    content: '$';
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    font-size: 20px;
+    color: #282c34;
+  }
+  
+  #desc {
+    text-align: left;
+  }
+  
+  #compound-balance-h2 {
+    color: #282c34;
+  }
+  
+  #compound-balance-h3 {
+    color: whitesmoke;
+    background-color: #282c34;
+    padding: 5%;
+    width: 50%;
+    margin-left: 20%;
+  }
